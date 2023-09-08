@@ -1,0 +1,9 @@
+SELECT
+[Measures].[Fact Order Count] ON COLUMNS
+FROM TransactionSalesCube;
+
+
+// List All Branches : 
+SELECT
+[Dim Customer].[Dim Customer].[All] ON COLUMNS
+FROM TransactionSalesCube
